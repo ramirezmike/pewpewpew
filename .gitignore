@@ -1,0 +1,8 @@
+/target
+/clips
+/references
+.github
+.vscode/
+build/
+content/
+game_plugin/target/*

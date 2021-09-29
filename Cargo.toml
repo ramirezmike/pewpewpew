@@ -1,0 +1,10 @@
+[package]
+name = "pewpewpew"
+publish = false
+version = "0.1.0"
+authors = ["mramirez <ramirezmike2@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bevy = { version = "0.5.0" }
+lazy_static = "1.4.0"
