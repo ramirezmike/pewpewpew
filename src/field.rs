@@ -86,8 +86,8 @@ fn load_assets(
 //      ..Default::default()
 //  });
 
-    let vertex = asset_server.load::<Shader, _>("shaders/hot.vert");
-    let fragment = asset_server.load::<Shader, _>("shaders/hot.frag");
+    let vertex = asset_server.load::<Shader, _>("shaders/field.vert");
+    let fragment = asset_server.load::<Shader, _>("shaders/field.frag");
     loading.asset_handles.push(vertex.clone_untyped());
     loading.asset_handles.push(fragment.clone_untyped());
     game_meshes.field_pipeline = pipelines.add(PipelineDescriptor::default_config(ShaderStages {
